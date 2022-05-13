@@ -1,29 +1,35 @@
 h1 {
     text-align: center;
-    color: red;
+    color: var(--claret);
     text-transform: uppercase;
     font-size: 300%;
     font-family: 'JetBrains Mono', monospace;
     width: 100%;
-    background-color: black;
-    margin-bottom: -5px;
-    margin-top: 0;
+    background-color: var(--light-orange);
+    margin: 0;
+    margin-bottom: -1%;
+    padding: 10px 0px;
 }
 
 nav {
     margin-top: 0%;
     width: 100%;
-    background-color: white;
+    background-color: var(--golden-brown);
 }
 
 html {
-    background-color: rgb(20, 26, 53);
+    --rich-black: #042a2bff;
+    --wild-orchid: #d56aa0ff;
+    --light-orange: #fcd0a1ff;
+    --claret: #7c0b2bff;
+    --golden-brown: #99621eff;
+    background-color: var(--rich-black);
 }
 
 body {
-    margin-left: 0%;
+    margin: 0;
 }
 
 #counter {
-    color: white;
+    color: var(--light-orange);
 }
